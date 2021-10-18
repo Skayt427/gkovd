@@ -1,0 +1,24 @@
+<svg id="Component_27_1" data-name="Component 27 – 1" xmlns="http://www.w3.org/2000/svg" width="871" height="216" viewBox="0 0 871 216">
+  <g id="города" transform="translate(-304 -652.311)">
+    <text id="Ростов-на-Дону" transform="translate(374 833.311)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">РОСТОВ-НА-ДОНУ</tspan></text>
+    <text id="Самара" transform="translate(513 798.311)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">САМАРА</tspan></text>
+    <text id="Екатеринбург" transform="translate(597 798.311)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">ЕКАТЕРИНБУРГ</tspan></text>
+    <text id="Новосибирск" transform="translate(719 854.311)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">НОВОСИБИРСК</tspan></text>
+    <text id="Хабаровск" transform="translate(1112 795.311)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">ХАБАРОВСК</tspan></text>
+    <text id="Симферополь" transform="translate(304 798.311)" fill="#2a2a2a" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.02em"><tspan x="0" y="0">СИМФЕРОПОЛЬ</tspan></text>
+    <text id="Санкт-Петербург" transform="translate(443 675.311)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">САНКТ-ПЕТЕРБУРГ</tspan></text>
+    <text id="Москва" transform="translate(443 725.311)" fill="#fff" font-size="10" font-family="OpenSans, Open Sans" letter-spacing="0.06em"><tspan x="0" y="0">МОСКВА</tspan></text>
+  </g>
+  <g id="ooooo" transform="translate(-304 -652.311)">
+    <circle id="Ellipse_20" data-name="Ellipse 20" cx="3" cy="3" r="3" transform="translate(425 843.311)" fill="#fff"/>
+    <circle id="Ellipse_20-2" data-name="Ellipse 20" cx="3" cy="3" r="3" transform="translate(461 735.311)" fill="#fff"/>
+    <circle id="Ellipse_20-3" data-name="Ellipse 20" cx="3" cy="3" r="3" transform="translate(537 806.311)" fill="#fff"/>
+    <circle id="Ellipse_20-4" data-name="Ellipse 20" cx="3" cy="3" r="3" transform="translate(488 652.311)" fill="#fff"/>
+    <circle id="Ellipse_20-5" data-name="Ellipse 20" cx="3" cy="3" r="3" transform="translate(631 806.311)" fill="#fff"/>
+    <circle id="Ellipse_20-6" data-name="Ellipse 20" cx="3" cy="3" r="3" transform="translate(754 862.311)" fill="#fff"/>
+    <circle id="Ellipse_20-7" data-name="Ellipse 20" cx="3" cy="3" r="3" transform="translate(1140 803.311)" fill="#fff"/>
+    <g id="star" transform="translate(456 730.311)">
+      <path id="Path_29" data-name="Path 29" d="M8.689-1215.515c-.149.461-.442,1.374-.785,2.43l-.633,1.96-.215.663-.063.189-3,0-3,0,2.421,1.765c2.218,1.617,2.421,1.767,2.417,1.8s-.079.255-.167.531l-.323.993c-.087.272-.269.832-.4,1.247s-.317.978-.405,1.253-.233.722-.322.994-.171.53-.184.573-.027.088-.032.1c-.011.03-.337.265,3.638-2.636.656-.48,1.2-.873,1.213-.873s.649.46,1.419,1.023l3.034,2.214c.216.157.394.284.4.281s-.022-.084-.451-1.41c-.466-1.439-.738-2.282-.984-3.04-.135-.418-.284-.876-.329-1.017l-.084-.254,2.424-1.77,2.426-1.769-3,0-3,0-.063-.189-.215-.663-.633-1.96c-.343-1.056-.636-1.969-.785-2.43-.086-.267-.159-.485-.162-.485S8.775-1215.781,8.689-1215.515Z" transform="translate(-1 1216)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

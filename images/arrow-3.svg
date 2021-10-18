@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="12.558" height="6.779" viewBox="0 0 12.558 6.779">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="12.557" height="6.779" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="стрелка" transform="translate(12.557 6.779) rotate(180)" clip-path="url(#clip-path)">
+    <path id="стрелка-2" data-name="стрелка" d="M1489.029,1675l-6.279-6.779-6.279,6.779Z" transform="translate(-1476.471 -1668.221)" fill="#1276b5"/>
+  </g>
+</svg>

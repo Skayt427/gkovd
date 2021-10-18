@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28" height="28" viewBox="0 0 28 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="28" height="28" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_queston_" data-name="(queston)" clip-path="url(#clip-path)">
+    <g id="Ellipse_12" data-name="Ellipse 12" fill="#fff" stroke="#0075be" stroke-width="2">
+      <circle cx="14" cy="14" r="14" stroke="none"/>
+      <circle cx="14" cy="14" r="13" fill="none"/>
+    </g>
+    <circle id="Ellipse_13" data-name="Ellipse 13" cx="1.5" cy="1.5" r="1.5" transform="translate(12.5 19.5)" fill="#0075be"/>
+    <path id="Path_61" data-name="Path 61" d="M1066,661a4.16,4.16,0,0,1,4-4.2,3.908,3.908,0,0,1,4,4.2,4.241,4.241,0,0,1-1.173,2.448c-.819.8-2.827,1.69-2.827,3.552" transform="translate(-1056 -650)" fill="none" stroke="#0075be" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

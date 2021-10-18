@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="28" viewBox="0 0 22 28">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="22" height="28" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="_doc_" data-name="(doc)" clip-path="url(#clip-path)">
+    <g id="Path_63" data-name="Path 63" transform="translate(0 2)" fill="#fff" stroke-linejoin="round">
+      <path d="M 21 25 L 20 25 L 2 25 L 1 25 L 1 24 L 1 -1.77635683940025e-15 L 1 -1 L 2 -1 L 13 -1 L 14 -1 L 14 -1.77635683940025e-15 L 14 5.571420192718506 L 20 5.571420192718506 L 21 5.571420192718506 L 21 6.571420192718506 L 21 24 L 21 25 Z" stroke="none"/>
+      <path d="M 2 0 L 2 24 L 20 24 L 20 6.571420669555664 L 13 6.571420669555664 L 13 0 L 2 0 M 2 -2 L 13 -2 C 14.10457038879395 -2 15 -1.104570388793945 15 0 L 15 4.571420669555664 L 20 4.571420669555664 C 21.10457038879395 4.571420669555664 22 5.466850280761719 22 6.571420669555664 L 22 24 C 22 25.10457038879395 21.10457038879395 26 20 26 L 2 26 C 0.8954296112060547 26 0 25.10457038879395 0 24 L 0 0 C 0 -1.104570388793945 0.8954296112060547 -2 2 -2 Z" stroke="none" fill="#0075be"/>
+    </g>
+    <path id="Path_64" data-name="Path 64" d="M-.1.421,6.851,6.959" transform="translate(14.104 1)" fill="none" stroke="#0075be" stroke-linecap="round" stroke-width="2"/>
+    <line id="Line_9" data-name="Line 9" x2="10" transform="translate(5 19)" fill="none" stroke="#0075be" stroke-width="3"/>
+    <path id="Path_65" data-name="Path 65" d="M0,0H12" transform="translate(5 13.6)" fill="none" stroke="#0075be" stroke-width="3"/>
+  </g>
+</svg>

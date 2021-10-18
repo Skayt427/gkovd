@@ -1,0 +1,210 @@
+html body .bvi-body #header.fixed {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+html body .bvi-body .icomoon-icon:after {
+    top: 0;
+}
+.bvi-panel-close {
+    margin-right: 58px;
+    display: inline-block;
+}
+html body .bvi-body .bg-img {
+    visibility: visible !important;
+}
+html body .bvi-body .pr-open-popup {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+html body .bvi-body .no-show-play:before {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+.bvi-customWrapper iframe {
+    display: block !important;
+}
+.bvi-customWrapper .content-popup .bvi-img-grayscale {
+    filter: grayscale(1) !important;
+}
+.bvi-customWrapper .wrap-bg.slider-box, .bvi-customWrapper .wrap-bg.list-box {
+    display: none !important;
+}
+.bvi-customWrapper .img-box.wrap-bg img {
+    display: inline-block !important;
+}
+.bvi-customWrapper .list-direction li a:before, .bvi-customWrapper .list-direction-scheme li a:before {
+    display: none !important;
+}
+
+.bvi-customWrapper .group-list {
+    margin: 0 -40px;
+}
+.bvi-customWrapper .group-list .list-directorate {
+    width: 100%;
+    float: none;
+    /*display: flex;*/
+    /*align-items: stretch;*/
+    /*justify-content: flex-start;*/
+    /*flex-wrap: wrap;*/
+    margin: 0 0 40px 0;
+}
+.bvi-customWrapper .group-list .list-directorate:last-child {
+    padding-top: 0px;
+}
+.bvi-customWrapper .group-list .list-directorate:before, .bvi-customWrapper .group-list .list-directorate:after {
+    display: none;
+}
+.bvi-customWrapper .group-list .list-directorate .triangle-dark-blue,
+.bvi-customWrapper .group-list .list-directorate .triangle-blue,
+.bvi-customWrapper .group-list .list-directorate .triangle-dark-grey,
+.bvi-customWrapper .group-list .list-directorate .triangle-read,
+.bvi-customWrapper .scheme-text .triangle-read {
+    display: none;
+}
+.bvi-customWrapper .scheme + .white-color-list {
+    display: none;
+}
+.bvi-customWrapper .group-list .list-directorate li {
+    max-width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0 40px 20px 160px;
+    text-align: left !important;
+}
+
+.bvi-customWrapper .group-list .list-directorate li:first-child {
+    padding-left: 40px;
+}
+.bvi-customWrapper .group-list .list-directorate li .holder-img {
+    max-width: 100px;
+    margin: 0 20px 0 0;
+}
+.bvi-customWrapper .group-list .list-directorate .holder-block {
+    height: auto;
+    max-width: 1000px;
+    text-align: left !important;
+    display: block;
+}
+.bvi-customWrapper .group-list .list-directorate:nth-child(2) .holder-block {
+    margin-left: 0px;
+    float: none;
+}
+.bvi-customWrapper .group-list .list-directorate .group {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.bvi-customWrapper .press-box .list-contact {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.bvi-customWrapper .ymaps-glass-pane.ymaps-events-pane {
+    background-color: transparent !important;
+}
+.bvi-customWrapper .holder-map-img.clone {
+    display: none;
+}
+.bvi-customWrapper .visible-mobile {
+    display: none !important;
+}
+.bvi-customWrapper .main-news .holder-link {
+    background: transparent !important;
+    background-color: transparent !important;
+}
+.bvi-customWrapper #main {
+    min-height: 510px;
+}
+.bvi-customWrapper .slider-main-holder .swiper-slide:first-child {
+    display: none;
+}
+html body.bvi-customWrapper ymaps .ymaps-image-with-content {
+    background-image: url('https://api-maps.yandex.ru/2.0/images/2c3d90d4e522c1f62b6cf3e59f7a877d.png') !important;
+}
+
+html body .bvi-body.bvi-color-white .btn-mob-menu span,
+html body .bvi-body.bvi-color-white .btn-mob-menu span:before,
+html body .bvi-body.bvi-color-white .btn-mob-menu span:after {
+    background: #000 !important;
+}
+html body .bvi-body.bvi-color-black .btn-mob-menu span,
+html body .bvi-body.bvi-color-black .btn-mob-menu span:before,
+html body .bvi-body.bvi-color-black .btn-mob-menu span:after {
+    background: #fff !important;
+}
+html body .bvi-body.bvi-color-blue .btn-mob-menu span,
+html body .bvi-body.bvi-color-blue .btn-mob-menu span:before,
+html body .bvi-body.bvi-color-blue .btn-mob-menu span:after {
+    background: #063462 !important;
+}
+html body .bvi-body.bvi-color-brown .btn-mob-menu span,
+html body .bvi-body.bvi-color-brown .btn-mob-menu span:before,
+html body .bvi-body.bvi-color-brown .btn-mob-menu span:after {
+    background: #4d4b43 !important;
+}
+html body .bvi-body.bvi-color-green .btn-mob-menu span,
+html body .bvi-body.bvi-color-green .btn-mob-menu span:before,
+html body .bvi-body.bvi-color-green .btn-mob-menu span:after {
+    background: #a9e44d !important;
+}
+
+html body .bvi-body .list-center {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+html body .bvi-body .stat-info {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+html body .bvi-body.bvi-color-white .slick-arrow svg g,
+html body .bvi-body.bvi-color-white .slick-arrow svg path {
+    fill: #fff !important;
+    stroke: #000 !important;
+}
+html body .bvi-body.bvi-color-black .slick-arrow svg g,
+html body .bvi-body.bvi-color-black .slick-arrow svg path {
+    fill: #000 !important;
+    stroke: #fff !important;
+}
+html body .bvi-body.bvi-color-blue .slick-arrow svg g,
+html body .bvi-body.bvi-color-blue .slick-arrow svg path {
+    fill: #9dd1ff !important;
+    stroke: #063462 !important;
+}
+html body .bvi-body.bvi-color-brown .slick-arrow svg g,
+html body .bvi-body.bvi-color-brown .slick-arrow svg path {
+    fill: #f7f3d6 !important;
+    stroke: #4d4b43 !important;
+}
+html body .bvi-body.bvi-color-green .slick-arrow svg g,
+html body .bvi-body.bvi-color-green .slick-arrow svg path {
+    fill: #3b2716 !important;
+    stroke: #a9e44d !important;
+}
+
+html body .bvi-body.bvi-color-white .tab-control li.active a {
+    background: #000 !important;
+    color: #fff !important;
+}
+html body .bvi-body.bvi-color-black .tab-control li.active a {
+    background: #fff !important;
+    color: #000 !important;
+}
+html body .bvi-body.bvi-color-blue .tab-control li.active a {
+    background: #063462 !important;
+    color: #9dd1ff !important;
+}
+html body .bvi-body.bvi-color-brown .tab-control li.active a {
+    background: #4d4b43 !important;
+    color: #f7f3d6 !important;
+}
+html body .bvi-body.bvi-color-green .tab-control li.active a {
+    background: #a9e44d !important;
+    color: #3b2716 !important;
+}
+

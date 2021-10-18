@@ -1,0 +1,15 @@
+/*.active-menu{*/
+/*    display: block !important;*/
+/*}*/
+
+.desktop-table th {
+font-size: 16px;
+line-height: 20px;
+color: #888888;
+padding: 15px 20px;
+font-weight: 400;
+}
+
+.desktop-table tbody td {
+padding: 11px 20px 7px;
+}
