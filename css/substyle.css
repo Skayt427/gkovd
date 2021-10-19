@@ -85,7 +85,7 @@
   content: "\e90d";
 }
 
-.icon-play:before {
+.icon-play-lil:before {
   content: "\e90e";
 }
 
@@ -116,6 +116,7 @@ a {
 /* style */
 
 /* Header style start*/
+
 .logo-text {
   margin: 0 7px 0 30px !important;
 }
@@ -147,6 +148,9 @@ a {
   }
 }
 @media (max-width: 1200px) {
+  #header {
+    display: none;
+  }
   .topBlock {
     justify-content: space-between;
   }
@@ -237,6 +241,19 @@ a {
 /* Header style end*/
 
 /* Footer style start */
+.footer {
+  margin-top: 60px;
+}
+@media (max-width: 1199px) {
+  .footer {
+    margin-top: 80px;
+  }
+}
+@media (max-width: 767px) {
+  .footer {
+    margin-top: 60px;
+  }
+}
 .footer-bottom {
   padding: 30px 0;
 }
@@ -325,7 +342,7 @@ a {
     padding-left: 0;
   }
 }
-/* Footer style start */
+/* Footer style end */
 
 .container-main {
   max-width: 1180px;
@@ -335,6 +352,8 @@ a {
 .container-main--relative {
   position: relative;
 }
+
+/* Home page style start*/
 .slider-home {
   position: relative;
   height: 380px;
@@ -966,3 +985,92 @@ a {
     src: url("../fonts/OpenSans-Bold/OpenSans-Bold.svg#OpenSans-Bold") format("svg");
   }
 }
+/* Home page style end*/
+
+
+/* Info page style start*/
+.section__title {
+  margin: 50px 0 0;
+  font-size: 36px;
+  color: #4A4949;
+  line-height: normal;
+}
+.info-box {
+  display: flex;
+  margin-top: 30px;
+  padding: 30px;
+  border-radius: 4px;
+  background-color: #fff;
+}
+.btn-primary {
+  width: 100%;
+  padding: 21px 0 20px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: normal;
+  color: #fff;
+  border: 2px solid #0075BE;
+  border-radius: 67px;
+  transition: all linear 0.3s;
+}
+.btn-primary__icon {
+  margin-right: 20px;
+  font-size: 24px;
+  vertical-align: middle;
+}
+.btn-primary:hover {
+  opacity: 0.5;
+  color: #0075BE;
+  background-color: #fff;
+}
+.btn-primary + .btn-primary {
+  margin-left: 20px;
+}
+@media (max-width: 1199px) {
+  .section__title {
+    margin-top: 80px;
+  }
+
+
+  .info-box {
+    flex-direction: column;
+    align-items: center;
+  }
+  .btn-primary {
+    max-width: 530px;
+  }
+  .btn-primary + .btn-primary {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .section__title {
+    margin-top: 60px;
+    font-size: 30px;
+  }
+
+
+  .info-box {
+    margin-top: 20px;
+    padding: 10px;
+  }
+  .btn-primary {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 13px 40px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    word-wrap: break-word;
+    /* word-break: break-all */
+  }
+  .btn-primary + .btn-primary {
+    margin-top: 10px;
+  }
+  .btn-primary__icon {
+    margin-right: 15px;
+    font-size: 22px;
+  }
+}
+/* Info page style end*/
