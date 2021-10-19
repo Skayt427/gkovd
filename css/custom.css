@@ -1384,9 +1384,6 @@ footer .list-social {
     .blind {
         font-size: 32px;
         line-height: 40px; } }
-@media (max-width: 1199px) {
-    .blind {
-        display: none; } }
 .blind-text {
     opacity: 0.6;
     text-transform: uppercase; }
@@ -1655,18 +1652,13 @@ footer .list-social {
 .headerSearch.active {
     z-index: 70;
 }
-@media (max-width: 1400px) {
-    .header-wrapper .logo-text {
-        display: none;
-    }
+@media (max-width: 1199px) {
+
     .header-wrapper .topBlock {
         display: flex;
     }
     .burger {
         top: 26px;
-    }
-    .header-wrapper .logo-img {
-        width: 85px;
     }
 }
 .header-wrapper .search.pr-search.visibleMd {
@@ -2046,7 +2038,7 @@ form table input[type=submit]{
     border: 1px solid #ccc;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 1400px) {
     .logo-mobile-hide {
         display: none;
     }

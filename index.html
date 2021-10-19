@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
   <meta charset="UTF-8">
@@ -19,6 +19,9 @@
   <link href="./icomoon/style.css" rel="stylesheet">
   <link href="./css/custom.css" rel="stylesheet">
   <link href="./css/bvi.custom.css" rel="stylesheet">
+
+  <!-- <link href="./css/swiper.css" rel="stylesheet"> -->
+  <link href="./css/swiper-bundle.min.css" rel="stylesheet">
 
   <!-- Мое -->
   <link href="./css/substyle.css" rel="stylesheet">
@@ -42,6 +45,12 @@
   <script src="./js/bvi.min.js"></script>
   <script src="./js/js.cookie.min.js"></script>
   <script src="./js/custom.js"></script>
+
+  <!-- <script src="./js/swiper.min.js"></script> -->
+  <script src="./js/swiper-bundle.min.js"></script>
+
+  <!-- Мое -->
+  <script src="./js/subscript.js"></script>
 </head>
 
 <body class="inner-page-submenu load">
@@ -393,7 +402,7 @@
       <div class="topBlock">
         <div class="logo">
           <a href="/" class="logo-inner">
-            <div class="logo-img logo-mobile-hide">
+            <div class="logo-img">
               <img src="./images/logo.png?v=1225" alt="" class="logo-img-tag">
             </div>
             <div class="logo-text">
@@ -403,10 +412,9 @@
               <div class="logo-text-standart">
                 «Государственная корпорация по организации воздушного движения в Российской Федерации»
               </div>
-              <br>
             </div>
-            <div class="logo-img">
-              <img src="/upload/25-years_ru.png" alt="" class="logo-img-tag">
+            <div class="logo-img logo-mobile-hide">
+              <img src="/images/25-years_ru.png" alt="" class="logo-img-tag">
             </div>
           </a>
         </div>
@@ -427,7 +435,9 @@
             Для слабовидящих </span>
         </a>
         <a href="/search/" class="search pr-search icomoon-icon js-searchToggler">
-          <img src="./images/search.svg" alt="img"> ПОИСК </a>
+          <img src="./images/search.svg" alt="img">
+          <span class="search-text"> ПОИСК </span>
+        </a>
         <a href="/search/" class="search pr-search icomoon-icon visibleMd">
           <img src="./images/search.svg" alt="img">
         </a>
@@ -466,14 +476,12 @@
         </div>
       </div>
     </header>
+
+
     <div id="main" style="min-height: 670px;">
 
-      <section class="swiper">
-        <div class="swiper-wrapper slider-home">
-          <div class="slider-home__control">
-            <div class="slider-home__arrow-end slider-home__arrow icon-chevron-left" id="slider-home__arrow-prev"></div>
-            <div class="slider-home__arrow icon-chevron-right" id="slider-home__arrow-next"></div>
-          </div>
+      <section class="swiper slider-home">
+        <div class="swiper-wrapper">
 
           <div class="swiper-slide slide-accounting">
             <div class="slide-accounting__bg" style="background-image: url(images/drone.jpg);"></div>
@@ -518,6 +526,14 @@
               </div>
             </div>
           </div>
+        </div>
+
+        <div class="slider-home__control">
+          <div class="slider-home__arrow icon-chevron-left" id="slider-home__arrow-prev"></div>
+          <div class="slider-home__arrow icon-chevron-right" id="slider-home__arrow-next"></div>
+        </div>
+        <div class="container-main container-main--relative">
+          <div class="swiper-pagination slider-home__pagination"></div>
         </div>
       </section>
 
@@ -542,6 +558,7 @@
 
       <section class="container-main">
         <div class="main-pages">
+
           <a href="#" class="main-pages__column">
             <h5 class="main-pages__title">Полезная информация</h5>
             <div class="main-pages__box main-img-one">
@@ -576,10 +593,12 @@
               <img src="images/contacts.jpg" alt="" class="main-pages__img">
             </div>
           </a>
+
         </div>
       </section>
 
     </div>
+
     <a class="up" href="#">
       <svg id="Group_212" data-name="Group 212" xmlns="http://www.w3.org/2000/svg" width="60" height="60" viewBox="0 0 60 60">
         <g id="Path_73" data-name="Path 73" fill="rgba(246,246,246,0.5)">
@@ -588,71 +607,28 @@
         </g>
         <path id="Icon" d="M15,2.8,12.162,0,0,12,12.162,24,15,21.2,5.676,12Z" transform="translate(21.045 18)" fill="#0075be"></path>
       </svg>
-
-
     </a>
 
     <footer class="footer js-footer">
 
-      <nav class="footer-menu">
-        <div class="footer-menu-inner typicalBlock">
-          <div class="footer-menu__single">
-            <a href="/" class="footer-menu__single-link">
-              Главная </a>
-          </div>
-          <div class="footer-menu__single">
-            <a href="/about/" class="footer-menu__single-link">
-              Госкорпорация </a>
-          </div>
-          <div class="footer-menu__single">
-            <a href="/activities/" class="footer-menu__single-link">
-              Деятельность </a>
-          </div>
-          <div class="footer-menu__single">
-            <a href="/press-centre/" class="footer-menu__single-link">
-              Пресс-центр </a>
-          </div>
-          <div class="footer-menu__single">
-            <a href="/people/" class="footer-menu__single-link">
-              Персонал </a>
-          </div>
-          <div class="footer-menu__single">
-            <a href="/services/" class="footer-menu__single-link">
-              Сервисы </a>
-          </div>
-          <div class="footer-menu__single">
-            <a href="/joint-atm-system/" class="footer-menu__single-link">
-              Единая система ОрВД </a>
-          </div>
-          <div class="footer-menu__single">
-            <a href="/branches/" class="footer-menu__single-link">
-              Филиалы </a>
-          </div>
-          <div class="footer-menu__single">
-            <a href="/news/" class="footer-menu__single-link">
-              Новости </a>
-          </div>
-          <div class="footer-menu__single">
-            <a href="/ano/" class="footer-menu__single-link">
-              Качество АНО </a>
-          </div>
-        </div>
-      </nav>
-
       <div class="footer-bottom">
         <div class="footer-bottom-inner typicalBlock">
           <div class="footer-copy">
-            © Госкорпорация по ОрВД, 2004–2021<br>
-            <a href="/policy/">Политика конфиденциальности</a>
+            © Портал для владельцев беспилотных воздушных судов в Российской Федерации, 2021
+            <br>
+            <a href="/policy/" class="footer-copy-link">Политика конфиденциальности</a>
           </div>
           <div class="footer-adress">
-            125167, г. Москва, Ленинградский пр-т., д. 37, кор.&nbsp;7
+            125167, г. Москва, Ленинградский пр-т., д. 37, корпус 7
           </div>
           <div class="footer-phone">
-            <a href="tel:+74956010899">
-              +7 (495) 601-08-99 </a>
+            <a href="tel:+74956010899" class="footer-phone-link">
+              +7 (495) 601-08-99
+            </a>
+            <a href="tel:88002006555" class="footer-phone-link">
+              8 (800) 200-6-555
+            </a>
           </div>
-          <br>
           <div class="footer-social">
             <a href="https://twitter.com/ATM_Corporation" class="footer-social__single">
               <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 410.155 410.155" style="enable-background:new 0 0 410.155 410.155;" xml:space="preserve" class="svg-icon">
