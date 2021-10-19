@@ -10,7 +10,7 @@ function forResize() {
   if (screenSide < 720) {
     coef = (screenSide / 720).toFixed(2);
   }
-  $('meta[name=viewport]').attr('content', 'width=' + width + ', minimum-scale=' + coef + ', initial-scale=' + coef + ', maximum-scale=3, user-scalable=yes');
+  // $('meta[name=viewport]').attr('content', 'width=' + width + ', minimum-scale=' + coef + ', initial-scale=' + coef + ', maximum-scale=3, user-scalable=yes');
 
   var appHeight = $(window).innerHeight() - $('.js-footer').innerHeight();
   $('.js-app-inner').css({ 'minHeight': appHeight });
@@ -18,10 +18,10 @@ function forResize() {
   $('#main').css({ 'min-height': $(window).height() - $('.js-footer').innerHeight() - $('.js-header-wrapper').innerHeight() });
 }
 $(document).ready(function () {
-  // forResize();
-  // $(window).resize(function () {
-  //   forResize();
-  // });
+  forResize();
+  $(window).resize(function () {
+    forResize();
+  });
   $('.gallery-box').each(function () {
     var div = $(this).find('.draggable');
     if (div) {
