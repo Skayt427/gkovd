@@ -24,7 +24,7 @@
   <link href="./css/swiper-bundle.min.css" rel="stylesheet">
   <link href="./css/nice-select.css" rel="stylesheet">
 
-  <!-- Мое -->
+
   <link href="./css/substyle.css" rel="stylesheet">
 
 
@@ -49,6 +49,7 @@
 
   <!-- <script src="./js/swiper.min.js"></script> -->
   <script src="./js/swiper-bundle.min.js"></script>
+  <script src="./js/jquery.nice-select.min.js"></script>
 
   <!-- Мое -->
   <script src="./js/subscript.js"></script>
@@ -449,31 +450,38 @@
         </a>
       </div>
     </div>
-    <header id="header" class="fixed">
-      <div class="sub-menu ">
-        <div class="container-fluid">
-          <a href="#" class="btn-submenu"></a>
-          <div class="inner-submenu d-sm-none d-md-block">
-            <span class="title-list">Приоритеты | Госкорпорация по ОрВД</span>
-            <ul class="list-submenu">
-              <li class="active">
-                <a href="/about/priorities/"> Приоритеты</a>
-              </li>
-              <li class="">
-                <a href="/about/executive-team/"> Руководство</a>
-              </li>
-              <li class="">
-                <a href="/about/history/"> История</a>
-              </li>
-              <li class="">
-                <a href="/about/organisational-chart/"> Организационная схема</a>
-              </li>
-              <li class="">
-                <a href="/about/contacts/"> Контакты</a>
-              </li>
-            </ul>
+    <header id="header-sub" class="header-sub">
+      <div class="container">
+        <div class="row">
+          <div class="col-9">
+            <div class="header-sub__left">
+              <a href="index.html" class="header-sub__home">
+                <span class="icon-home"></span>
+              </a>
+              <ul class="header-sub__nav">
+                <li class="active">
+                  <a href="info.html">Полезная информация</a>
+                </li>
+                <li>
+                  <a href="servise.html">Сервисы</a>
+                </li>
+                <li>
+                  <a href="ask.html">Задать вопрос</a>
+                </li>
+                <li>
+                  <a href="doc.html">Документы</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <strong class="title-submenu">Приоритеты</strong>
+          <div class="col-3">
+            <form class="header-sub__search">
+              <input placeholder="Поиск по сайту...">
+              <button type="button">
+                <span class="icon-search"></span>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </header>
