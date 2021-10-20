@@ -989,11 +989,11 @@ a {
 
 
 /* Info page style start*/
-.interactive__info-menu {
+.interactive--hide {
   display: none;
 }
-.interactive__info-menu--active {
-  display: block;
+.interactive--show {
+  display: block !important;
 }
 .section__title {
   margin: 50px 0 0;
@@ -1041,8 +1041,6 @@ a {
   .section__title {
     margin-top: 80px;
   }
-
-
   .info-box {
     flex-direction: column;
     align-items: center;
@@ -1087,14 +1085,23 @@ a {
 
 /* Reed info section start*/
 .content-box {
+  display: none;
   margin-top: 80px;
   padding: 0 30px 30px;
   background-color: #fff;
   border-radius: 4px;
   font-size: 18px;
-} 
+}
 .content-box + .content-box {
   margin-top: 50px;
+}
+.content-box .content-box {
+  display: block !important;
+}
+.content-box--clean {
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: transparent !important;
 }
 .menu-arrow {
   display: inline-block;
@@ -1191,6 +1198,9 @@ a {
   }
   .content-box + .content-box {
     margin-top: 20px;
+  }
+  .menu_btn-active.menu-second__title {
+    color: #4A4949;
   }
 }
 
