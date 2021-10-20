@@ -1000,6 +1000,7 @@ a {
   font-size: 36px;
   color: #4A4949;
   line-height: normal;
+  font-weight: 500;
 }
 .info-box {
   display: flex;
