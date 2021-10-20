@@ -1851,7 +1851,24 @@ a {
 /* Правки по шапка и футеру конец*/
 
 /* адаптив для меню */
+@media(max-width: 1200px){
+  .blind{
+    margin-left: auto;
+    margin-right: 18px;
+  }
+  .search img {
+    width: 30px !important;
+    height: 30px !important;
+  }
+  .search{
+    margin-right: 0;
+  }
+}
 @media(max-width: 767px){
+  .search img {
+    width: 20px !important;
+    height: 20px !important;
+  }
   .header-inner{
     padding: 15px;
   }
@@ -1897,5 +1914,97 @@ a {
     margin-top: 5vw;
   }
 }
-
 /* адаптив для меню end*/
+
+/* менюшка под шапкой */
+.header-sub{
+  background-color: #fff;
+  padding-top: 15px;
+}
+.header-sub__left{
+  display: flex;
+  padding-top: 9px;
+}
+.header-sub__home{
+  color: #2E2E2E;
+  font-size: 20px;
+  margin-right: 33px;
+  display: block;
+}
+.header-sub__nav{
+  display: flex;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+.header-sub__nav li{
+  margin-right: 30px;
+  list-style: none;
+}
+
+.header-sub__nav a{
+  font-size: 14px;
+  line-height: 19px;
+  color: #2E2E2E;
+  display: block;
+  transition: 0.3s all;
+  padding-bottom: 25px;
+  border-bottom: 2px solid transparent;
+}
+.header-sub__nav a:hover{
+  color: #0075BE;
+}
+.header-sub__nav li.active a{
+  border-bottom: 2px solid #0075BE;
+  color: #0075BE;
+  font-weight: bold;
+}
+.header-sub__search{
+  position: relative;
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.header-sub__search input{
+  border: 1px solid rgba(81,81,81,0.1);
+  border-radius: 31px;
+  width: 203px;
+  height: 39px;
+  font-size: 14px;
+  line-height: 19px;
+  color: #2E2E2E;
+  padding: 0 20px;
+  width: 100%;
+  max-width: 203px;
+  transition: 0.3s all;
+  padding-right: 50px;
+}
+.header-sub__search input:focus{
+  max-width: 100%;
+  border: 1px solid rgba(81,81,81,0.5);
+}
+.header-sub__search input::placeholder{
+  opacity: 0.4;
+}
+.header-sub__search button{
+  position: absolute;
+  right: 23px;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: 0;
+}
+@media(max-width: 1199px){
+  .header-sub__search input{
+    padding-right: 35px;
+    max-width: 200px;
+  }
+  .header-sub__search button{
+    right: 10px;
+  }
+}
+@media(max-width: 991px){
+  .header-sub{
+    display: none;
+  }
+}
+/* менюшка под шапкой конец*/
