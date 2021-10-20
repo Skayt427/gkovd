@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
   //doc.html
     $('.doc__item').on('click', function(){
       var dataId = $(this).attr('data-id')
-      console.log(dataId)
+      
       $('#'+dataId).fadeIn()
     })
 
@@ -41,4 +41,27 @@ document.addEventListener("DOMContentLoaded", function () {
       $(this).closest('.doc__pop-up').fadeOut()
     })
   //doc.html end
+
+  //ask.html
+    $('.ask__title').on('click', function(){
+      $(this).closest('.ask__item').toggleClass('active')
+      $(this).next('.ask__content').slideToggle()
+    })
+
+    $('.btn-pop-up').on('click', function(){
+      var dataId = $(this).attr('data-id')
+      $('#'+dataId).fadeIn()
+    })
+
+    $('.sub-select').niceSelect();
+    $('.sub-select').on('change', function(){
+      $(this).closest('.ask-pop-up__top-row').addClass('active')
+    })
+
+    $('#ask-form').on('submit', function(e){
+      e.preventDefault()
+      $(this).closest('.doc__pop-up').fadeOut()
+      $('#ask-pop-up-senk').fadeIn()
+    })
+  //ask.html end
 });
