@@ -64,4 +64,21 @@ document.addEventListener("DOMContentLoaded", function () {
       $('#ask-pop-up-senk').fadeIn()
     })
   //ask.html end
+
+  // Interactive page start
+
+  //    Info btn
+
+  //    Info btn dropdown 
+  let buttonsMenu = document.querySelectorAll('.menu_btn');
+
+  buttonsMenu.forEach((elem) => {
+    elem.addEventListener('click', () => {
+      elem.closest('.menu-wrap').querySelector('.menu_inactive').classList.toggle('menu_active')
+      elem.closest('.menu-wrap').querySelector('.menu_btn').classList.toggle('menu_btn-active')
+    })
+  });
+
+  //    Registration btn
+  // Interactive page end
 });

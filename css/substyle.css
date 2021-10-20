@@ -989,12 +989,17 @@ a {
 
 
 /* Info page style start*/
+.interactive__info-menu {
+  display: none;
+}
+.interactive__info-menu--active {
+  display: block;
+}
 .section__title {
   margin: 50px 0 0;
   font-size: 36px;
   color: #4A4949;
   line-height: normal;
-  font-weight: 400;
 }
 .info-box {
   display: flex;
@@ -1019,10 +1024,14 @@ a {
   font-size: 24px;
   vertical-align: middle;
 }
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
   opacity: 0.5;
   color: #0075BE;
   background-color: #fff;
+  box-shadow: none;
+  outline: transparent;
 }
 .btn-primary + .btn-primary {
   margin-left: 20px;
@@ -1064,7 +1073,7 @@ a {
     align-items: center;
     text-align: left;
     word-wrap: break-word;
-    /* word-break: break-all */
+    word-break: break-word;
   }
   .btn-primary + .btn-primary {
     margin-top: 10px;
@@ -1074,8 +1083,147 @@ a {
     font-size: 22px;
   }
 }
-/* Info page style end*/
 
+/* Reed info section start*/
+.content-box {
+  margin-top: 80px;
+  padding: 0 30px 30px;
+  background-color: #fff;
+  border-radius: 4px;
+  font-size: 18px;
+} 
+.content-box + .content-box {
+  margin-top: 50px;
+}
+.menu-arrow {
+  display: inline-block;
+  color: #0075BE;
+  font-size: 6px;
+  padding: 9px;
+  margin-left: 10px;
+  vertical-align: middle;
+  text-align: right;
+  transition: all linear 0.2s;
+}
+.menu-first__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  line-height: normal;
+  padding: 30px 0;
+  position: relative;
+  cursor: pointer;
+}
+.menu-first__title::after {
+  position: absolute;
+  content: '';
+  width: calc(100% - 60px);
+  height: 1px;
+  background-color: #E0E0E0;
+  left: 30px;
+  bottom: 0;
+}
+.menu-second {
+  margin: 0 30px;
+}
+.menu-second__title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 0;
+  font-weight: 600;
+  color: #0075BE;
+  line-height: normal;
+  cursor: pointer;
+  border-bottom: 1px solid #E0E0E0;
+}
+.content-box p {
+  font-size: 16px;
+  line-height: 150%;
+  color: #636363;
+  padding-bottom: 10px;
+  margin: 0;
+}
+.content-box p + p {
+  margin-top: 4px;
+}
+.menu_inactive {
+  display: none;
+}
+.menu_active {
+  display: block;
+}
+.menu-second .menu_active {
+  border-bottom: 1px solid #E0E0E0;
+}
+.menu_btn-active {
+  border-bottom: 1px solid transparent;
+}
+.menu_btn-active .menu-arrow {
+  transform: rotate(180deg);
+}
+.menu-specifications__item {
+  display: flex;
+  margin-top: 40px;
+}
+.menu-specifications__item:first-child {
+  margin-top: 35px;
+}
+.menu-specifications__img {
+  font-size: 50px;
+  height: 50px;
+  min-width: 90px;
+  color: #4357AD;
+}
+.menu-specifications__img_width {
+  background-repeat: no-repeat;
+  background-position: center left;
+}
+.menu-specifications__item p {
+  margin-top: 13px;
+}
+
+@media (max-width: 1199px) {
+  .content-box {
+    margin-top: 30px;
+  }
+  .content-box + .content-box {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .content-box {
+    margin-top: 20px;
+    padding: 0 20px;
+  }
+  .menu-arrow {
+    font-size: 4px;
+  }
+  .menu-first__title {
+    font-size: 16px;
+    padding: 20px 0;
+  }
+  .menu-first__title::after {
+    width: calc(100% - 54px);
+    left: 20px;
+  }
+  .menu-second {
+    margin: 0 0 0 20px;
+  }
+  .menu-second__title {
+    font-size: 14px;
+    padding: 10px 0;
+    margin-right: 34px;
+  }
+  .content-box p {
+    font-size: 14px;
+    margin-top: 10px;
+  }
+}
+/* Reed info section end*/
+/* Info page style end*/
 
 /* document */
 .doc{
