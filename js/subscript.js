@@ -81,8 +81,8 @@ document.addEventListener("DOMContentLoaded", function () {
     })
   });
 
-  //    Interactive info btn
-  let interactiveButtons = document.querySelectorAll('.btn-primary');
+  //    Interactive btn
+  let interactiveButtons = document.querySelectorAll('.js-interactive-btn');
 
   interactiveButtons.forEach((button) => {
     let interactiveTarget = button.dataset.target;
@@ -98,9 +98,21 @@ document.addEventListener("DOMContentLoaded", function () {
       });
 
       //Показываем нужный блок
-      block.classList.add('interactive--show')
+      if (block) {
+        block.classList.add('interactive--show')
+      }
+
     })
   })
-  //    Interactive registration btn
+
+  //    Кнопка Нет
+  let btnPrimaryNo = document.querySelectorAll('.btn-primary__no');
+
+  btnPrimaryNo.forEach((elem) => {
+    elem.addEventListener('click', () => {
+      elem.closest('.menu_inactive').querySelector('.interactive__question').classList.add('interactive--hide')
+      elem.closest('.info-box').classList.add('interactive--hide')
+    })
+  })
   // Interactive page end
 });

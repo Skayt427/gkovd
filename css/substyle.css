@@ -812,6 +812,8 @@ a {
     font-size: 18px;
     line-height: 22.5px;
     padding: 20px;
+    max-width: none;
+    text-align: center;
   }
 
   .main-img-one {
@@ -820,8 +822,6 @@ a {
   }
   .main-img-two {
     margin-left: 0px;
-  }
-  .main-img-three {
   }
   .main-img-four {
     margin-left: 0px;
@@ -845,7 +845,7 @@ a {
   .director {
     margin-top: 80px;
   }
-
+  
   .director__inner {
     margin-top: 30px;
   }
@@ -929,6 +929,10 @@ a {
     margin-top: 60px;
   }
 
+  .director__title {
+    font-size: 30px;
+  }
+
   .director__inner {
     margin-top: 20px;
     -webkit-box-orient: vertical;
@@ -990,7 +994,7 @@ a {
 
 /* Info page style start*/
 .interactive--hide {
-  display: none;
+  display: none !important;
 }
 .interactive--show {
   display: block !important;
@@ -1019,6 +1023,9 @@ a {
   border: 2px solid #0075BE;
   border-radius: 67px;
   transition: all linear 0.3s;
+  text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
 }
 .btn-primary__icon {
   margin-right: 20px;
@@ -1065,9 +1072,9 @@ a {
     padding: 10px;
   }
   .btn-primary {
-    font-size: 18px;
+    font-size: 16px;
     line-height: 25px;
-    padding: 13px 40px;
+    padding: 13px 35px;
     display: flex;
     align-items: center;
     text-align: left;
@@ -1103,6 +1110,71 @@ a {
   padding: 0 !important;
   background-color: transparent !important;
 }
+.interactive .content-box {
+  padding-bottom: 0;
+  margin-top: 80px;
+}
+.interactive .content-box + .content-box {
+  margin-top: 20px;
+}
+.interactive .content-box .menu-first__title::after {
+  display: none;
+}
+.interactive .menu-first__title {
+  color: #0075BE;
+}
+.interactive .menu_inactive {
+  padding-bottom: 30px;
+}
+.interactive__question {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+}
+.interactive__title {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 150%;
+  color: #4A4949;
+}
+.interactive__title + .interactive__question {
+  margin-top: 40px;
+}
+.interactive__title + .interactive__title {
+  margin-top: 14px;
+}
+.interactive__reply {
+  display: inline-block;
+  font-size: 20px;
+  opacity: 0.5;
+  line-height: 150%;
+  margin: 5px 0 0;
+  color: #4A4949;
+}
+.interactive__reply + .interactive__question {
+  margin-top: 40px;
+}
+.interactive__number {
+  text-decoration: underline;
+}
+.interactive__phone {
+  display: inline-block;
+  margin-right: auto;
+  color: #3B3B3B;
+  font-weight: 600;
+}
+.interactive__phone + .interactive__phone {
+  margin-top: 4px;
+}
+.interactive .info-box {
+  padding: 0;
+}
+.menu_btn-active .menu-first__title--opacity {
+  opacity: 0.5;
+}
 .menu-arrow {
   display: inline-block;
   color: #0075BE;
@@ -1111,7 +1183,7 @@ a {
   margin-left: 10px;
   vertical-align: middle;
   text-align: right;
-  transition: all linear 0.2s;
+  transition: all linear 0.2s;  
 }
 .menu-first__title {
   display: flex;
@@ -1152,6 +1224,9 @@ a {
   color: #636363;
   padding-bottom: 10px;
   margin: 0;
+}
+.interactive__title + p {
+  margin-top: 40px;
 }
 .content-box p + p {
   margin-top: 4px;
@@ -1199,6 +1274,9 @@ a {
   .content-box + .content-box {
     margin-top: 20px;
   }
+  .interactive .content-box {
+    margin-top: 30px;
+  }
   .menu_btn-active.menu-second__title {
     color: #4A4949;
   }
@@ -1208,6 +1286,9 @@ a {
   .content-box {
     margin-top: 20px;
     padding: 0 20px;
+  }
+  .interactive__title + p {
+    margin-top: 30px !important;
   }
   .menu-arrow {
     font-size: 4px;
@@ -1231,6 +1312,15 @@ a {
   .content-box p {
     font-size: 14px;
     margin-top: 10px;
+  }
+  .interactive .menu_inactive {
+    padding-bottom: 20px;
+  }
+  .interactive__question {
+    font-size: 16px;
+  }
+  .interactive__title {
+    font-size: 16px;
   }
 }
 /* Reed info section end*/
